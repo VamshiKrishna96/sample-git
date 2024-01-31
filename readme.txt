@@ -1,4 +1,6 @@
-This is a sample readme file
-This is new line added
+Thanks for downloading this template!
 
-This is different file
+Template Name: Vesperr
+Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+Author: BootstrapMade.com
+License: https://bootstrapmade.com/license/
