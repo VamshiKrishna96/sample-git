@@ -1,3 +1,15 @@
+Shell Script:
+
+#!/bin/bash
+touch newfile{1,2,3}.txt
+mkdir demodir
+
+*] Save the file with .sh extension
+*] change the file to executable format
+	Syntax: chmod +x filename.sh
+*] Run the file 
+	Syntax: ./filename.sh
+
 ====GIT====
 
 Version Control:
