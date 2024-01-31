@@ -1,0 +1,64 @@
+
+
+Services commands:
+Services like Nginx, apache2
+
+
+Shell Script
+
+
+https://dev.to/shadid12/how-to-deploy-your-node-js-app-on-aws-with-nginx-and-ssl-3p5l
+
+====GIT====
+
+Version Control:
+
+https://www.atlassian.com/git/tutorials/what-is-version-control
+
+Git Introduction:
+
+Git is a distributed version control system that helps track changes in your codebase and collaborate with others.
+
+https://github.com/arvind37/Basic-Website-using-HTML-CSS
+
+Configure Git:
+
+git config --global user.name "username"
+git config --global user.email "user-email@gmail.com"
+
+git config user.name ==>This shows the git user
+git config user.email ==> This shows the git user email
+
+git config --global --list
+
+git remote add origin URL
+
+git push -u origin --all
+
+git remote add origin GitHub_Repo_URL ==> To connect to github
+
+gir remote -v ==> Displays all the connected urls with the local folder
+
+git push origin master/main ==> To push the code into GitHub Repository
+
+
+Git Commands:
+
+*] git init ==> To initialize git.
+*] git clone githubURL ==> To clone a repository from GitHub.
+*] git branch ==> To list all the branches.
+*] git branch 'branch_name' ==> To create a new branch.
+*] git switch 'branch_name' ==> To switch to a new branch.
+*] git checkout -b 'branch_name' ==> To create a new branch and switch to that branch.
+*] git status ==> To check the status of the file.
+*] git log ==> To check the logs.
+*] git log --oneline ==> display the output as one commit per line
+*] git add filename ==> To track a specific file.
+*] git add . ==> To track all the files.
+*] git commit -m "Intial Commit" ==> To commit changes permanently.
+*] git push -u origin master ==> To push the code/files into centralized repository.
+
+
+
+
+

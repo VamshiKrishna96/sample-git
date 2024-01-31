@@ -1,0 +1,181 @@
+Referral Links:
+
+https://github.com/Nirzak/All-in-one-Linux-Commands?tab=readme-ov-file#Permission-commands
+
+https://github.com/mehransab101/Mastering-Linux-Shell-Scripting/blob/master/Mastering%20Linux%20Shell%20Scripting.pdf
+
+https://github.com/livialima/linuxupskillchallenge/blob/master/docs/01.md
+
+https://github.com/kunaganesh/LINUX-BASIC-COMMANDS
+
+https://gist.github.com/bradtraversy/cc180de0edee05075a6139e42d5f28ce?permalink_comment_id=4302581
+
+https://github.com/bobbyiliev/101-linux-commands-ebook/blob/main/ebook/en/content/100-the-vim-command.md
+
+
+# LINUX-BASIC-COMMANDS
+
+* To create a file with cat:
+
+ cat > <Filename>	Eg: cat > sample.txt Then  Press Crtl + d to save the file
+
+
+* To apend more lines to a file:
+
+ cat >> <Filename>	Eg: cat >> sample.txt Add new lines here and then press Ctrl + d to save the file
+
+* To view the contents of the file:
+
+ cat <Filename> 	Eg: cat sample.txt
+
+* To create an empty file:
+
+ touch <Filename>	Eg: touch newfile
+
+*  To create mutiple files at a time:
+
+ touch <Filename{1..n}> 	Eg: touch newfile{1..n}.txt
+
+* To create or edit an existing  file:
+
+ vi <Filename> 		Eg: vi sample.txt 	To save the changes press esc :qw and hit Enter 	
+
+* To create or edit an existing  file:
+ 
+nano <Filename> 	Eg: nano sample.txt 	
+
+To save the changes press Ctrl + o, hit Enter and then quit it Ctrl + x [OR] Remember to save and close each file by CTRL+X and Y, then press enter.
+
+* To create a directory:
+
+ mkdir <Dirname>	Eg: mkdir newdirectory
+
+* To create directory recursively:
+
+ mkdir -p <Dirname> 	Eg: mkdir -p newrecursive
+
+* To know present working directory:
+
+ pwd 
+
+* To move one dir to another dir:
+
+ cd <Dirname>		Eg: cd newdirectory
+
+* To list the content in pwd:
+
+ ls 
+
+*  To move one dir back: cd ..
+
+* To directly go to home from any dir: cd 
+
+* To remove a file:
+
+ rm <Filename> 		Eg: rm sample.txt
+
+* To remove an empty dir:
+
+ rmdir <Dirname> 	Eg: rmdir newdirectory
+
+* To remove a non empty dir:
+
+ rm -rf <Dirname> 	Eg: rm -rf newdirectory
+
+* To list the perticular dir:
+
+ ls <Dirname> 		Eg: ls
+
+* To create hidden dir:
+
+ mkdir .<Dirname> 	Eg: mkdir .hidedirectory
+
+* To create a  hidden file:
+
+ touch .<Filename>	Eg: mkdir .hidetextfile.txt
+
+* To list the hidden files or dir: ls -a
+
+* To display the content with size: ls -s
+
+* To list the full information of the content (Long listing): ls -l
+
+* To view the permissions of perticular file or dir:
+ 
+ls -ld <Filename/Dirname> 	Eg: ls -ld newdirectory
+
+*  To list the content with time of creation (recently created files first showing): ls -lt
+
+* To list the content with time but reverse (older ones first showing): ls -lrt
+
+* To change the permissions of a particular file or dir:
+
+ chmod number <Filename/Dirname> 	Eg: chmod 400/777/200 newdirectory
+
+* To create a user:
+
+ useradd <Username> 	Eg: useradd test_user
+
+* To create a user in ubuntu:
+
+ adduser <Username> 	Eg: adduser test_user_ubuntu
+
+* To change the ownership of a file or dir:
+
+ chown <Username> <Filename/Dirname> 	Eg: chowm test_user sample.txt
+
+*  To delete a user:
+
+ userdel <Username>	Eg: userdel test_user
+
+* All the existing users are locating in: /etc/passwd
+
+* To create a group:
+
+ groupadd <Groupname> 	Eg: groupadd devgroup / groupadd qagroup / groupadd devopsgroup
+
+* To change a group membership of a file/dir:
+
+ chgrp <Groupname> <Filename/Dirname> 	Eg: chgrp devopsgroup sample.txt
+
+* To delete a group:
+
+ groupdel <Groupname> 	Eg: groupdel devgroup
+
+* All the existing groups are located in this file:  /etc/group  
+
+* To copy  file into a dir:
+
+ cp <Filename> <Dirname> 	Eg: cp sample.txt newdirectory
+
+* Copy dir into a dir:
+
+ cp -r <Dirname> <Dirname> 	Eg: cp -r newdirectory newrecursive
+
+* To copy  file into a dir:
+
+ scp -i /path/to/private-key-file local-file-path username@remote-server-ip:/path/on/remote/server
+
+
+* To move file into a dir:
+
+ mv <Filename> <Dirname> 	Eg: mv sample.txt newrecursive
+
+* To move one dir into another dir:
+
+ mv <Dirname> <Dirname> 	Eg: mv newdirectory newrecursive
+
+* This command is also used for renaming: mv
+
+* To create a hard link for a file:
+
+ ln <srcfile> <linkname>
+
+*  To create a softlink:
+
+ ln -s <srcfile> <linkname>
+
+* To remove the link:
+
+ unlink <linkname>
+
