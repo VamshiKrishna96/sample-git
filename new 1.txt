@@ -1,14 +1,3 @@
-
-
-Services commands:
-Services like Nginx, apache2
-
-
-Shell Script
-
-
-https://dev.to/shadid12/how-to-deploy-your-node-js-app-on-aws-with-nginx-and-ssl-3p5l
-
 ====GIT====
 
 Version Control:
